@@ -1,9 +1,9 @@
 
 
-function Home(props){
-    const {setPlay} = props
+function Home(props) {
+    const { setPlay } = props
 
-    function startQuiz(){
+    function startQuiz() {
         setPlay(true)
     }
     return (

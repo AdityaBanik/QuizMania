@@ -10,7 +10,7 @@ function Question(props) {
     const { question, correctAnswer, options, questionNumber, isSubmitted, updateCount } = props
     const [selection, setSelection] = useState('')
     let correct = false
-    
+
     function handleSelection(event) {
         setSelection(event.target.value)
     }

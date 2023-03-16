@@ -24,7 +24,7 @@ function Option(props) {
                 disabled={isSubmitted}
                 required
             />
-            <label htmlFor={id} className="option" style={styles}  dangerouslySetInnerHTML={{__html:value}}></label>
+            <label htmlFor={id} className="option" style={styles} dangerouslySetInnerHTML={{ __html: value }}></label>
         </>
     )
 
