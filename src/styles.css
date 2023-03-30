@@ -124,7 +124,14 @@ button{
 
 
 
-
+@media (min-width:1200px) {
+    html{
+        font-size: 1.2rem;
+    }
+    main{
+        max-width: 1150px;
+    }
+}
 
 
 
